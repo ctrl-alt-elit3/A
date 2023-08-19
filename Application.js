@@ -8,6 +8,44 @@ function generateSvg(color) {
 	};
 }
 
+function addEventListener(marker)
+{
+	marker.addListener('click', function() {
+    	app.infoWindow.close();
+
+	    var contentString = `
+	        <div>
+	            <h2>${marker.title}</h2>
+	            <button id="setStart">Set start</button>
+	            <button id="setDestination">Set as dest</button>
+	        </div>
+	    `;
+
+	    app.infowindow = new google.maps.InfoWindow({
+	        content: contentString
+	    });
+
+	    app.infowindow.open(map, marker);
+
+	    console.log("CLicked");
+
+	    google.maps.event.addListener(app.infowindow, 'domready', function() {
+	        var setStartBtn = document.getElementById('setStart');
+	        var setDestinationBtn = document.getElementById('setDestination');
+
+	        setStartBtn.addEventListener('click', function() {
+	            document.getElementById('start').value = marker.title;
+	            app.infowindow.close();
+	        });
+
+	        setDestinationBtn.addEventListener('click', function() {
+	            document.getElementById('end').value = marker.title;
+	            app.infowindow.close();
+	        });
+	    });
+	});
+}
+
 class Application
 {
 	// Grab API key from env file, provide an env file location
@@ -38,8 +76,13 @@ class Application
 	    };
 	    let that = this;
 	    this.directionsService.route(request, function(result, status) {
+	    	console.log(status);
+	    	console.log(result);
 	        if (status == 'OK') {
 	            that.directionsRenderer.setDirections(result);
+	        } else if (status == "NOT_FOUND")
+	        {
+	        	alert("Either the start or desitination was not set or our algorithms could not determine a feasible route between the 2 points");
 	        }
 	    });
 	}
@@ -68,7 +111,7 @@ class Application
 	        fullscreenControl: false,
 			restriction: {
 	            latLngBounds: {
-				    north: -10,
+				    north: -5,
 				    south: -45,
 				    west: 107,
 				    east: 159
@@ -82,8 +125,6 @@ class Application
 		this.directionsRenderer = new google.maps.DirectionsRenderer();
     	this.directionsRenderer.setMap(this.map);
 
-    	this.calculateRoute("Sydney, NSW", "Melbourn, VIC");
-
 		// Load map data
 		fetch("./data/seaports.json").then(function(response) {
 			return response.json();
@@ -92,13 +133,10 @@ class Application
 				let marker = new google.maps.Marker({
 			        position: { lat: parseFloat(seaport.geometry.coordinates[1]), lng: parseFloat(seaport.geometry.coordinates[0]) },
 			        map: that.map,
-			        title: seaport.properties.Port + " (Seaport)",
+			        title: seaport.properties.Port,
 			        icon: generateSvg("#00FF00")
 			    });
-			    google.maps.event.addListener(marker, 'click', function() {
-			        that.infoWindow.setContent(marker.title);
-			        that.infoWindow.open(map, marker);
-			    });
+			    addEventListener(marker, that);
 			}
 		});
 		fetch("./data/intermodalports.json").then(function(response) {
@@ -110,13 +148,10 @@ class Application
 				let marker = new google.maps.Marker({
 			        position: { lat: parseFloat(intermodalport.geometry.coordinates[0][0][1]), lng: parseFloat(intermodalport.geometry.coordinates[0][0][0]) },
 			        map: that.map,
-			        title: intermodalport.properties.Name.replace("IMT", "(Intermodal Terminal)"),
+			        title: intermodalport.properties.Name.replace("IMT", ""),
 			        icon: generateSvg("#FF0000")
 			    });
-			    google.maps.event.addListener(marker, 'click', function() {
-			        that.infoWindow.setContent(marker.title);
-			        that.infoWindow.open(that.map, marker);
-			    });
+			    addEventListener(marker, that);
 			}
 		});
 		fetch("./data/distribution-centres.json").then(function(response) {
@@ -129,10 +164,7 @@ class Application
 			        title: dc.name,
 			        icon: generateSvg("#FFFF00")
 			    });
-			    google.maps.event.addListener(marker, 'click', function() {
-			        that.infoWindow.setContent(marker.title);
-			        that.infoWindow.open(that.map, marker);
-			    });
+			    addEventListener(marker, that);
 			}
 		});
 
@@ -196,6 +228,12 @@ class Application
 	                that.infoWindow.open(that.map);
 			    });
 			}
+		});
+
+		document.getElementById("form").addEventListener("submit", function()
+		{
+			event.preventDefault();
+			that.calculateRoute(document.getElementById("start").value, document.getElementById("end").value);
 		});
 	}
 }
