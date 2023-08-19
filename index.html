@@ -5,22 +5,26 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <div id="header">
-      <p class="header-name"><b>Australia</b></p>
-      <p class="header-name">Logistics</p>
-      <p class="header-name"><b>Planner</b></p>
-    </div>
-    <!-- Form to input starting location and ending location -->
-    <div>
-      <form id="form">
+
+    <div class="container">
+      <div class="ui">
+        <form id="form">
         <label for="start">Start: </label>
         <input type="text" id="start" name="start" placeholder="Sydney">
         <label for="end">End: </label>
         <input type="text" id="end" name="end" placeholder="Melbourne">
         <input type="submit" value="Submit">
-      </form>
+      </div>
+      <div class="map">
+        <div id="map"></div>
+      </div>
+      <div class="header" id="header">
+        <p class="header-name"><b>Australia</b></p>
+        <p class="header-name">Logistics</p>
+        <p class="header-name"><b>Planner</b></p>
+      </div>
     </div>
-    <div id="map"></div>
+
   </body>
   <script type="text/javascript" src="./main.js"></script>
 </html>

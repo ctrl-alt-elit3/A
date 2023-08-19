@@ -3,8 +3,8 @@
 
 	ctx.initMap = function initMap() {
 		map = new google.maps.Map(document.getElementById('map'), {
-		center: {lat: -25, lng: 135 },
-		zoom: 4,
+		center: {lat: -15, lng: 135 },
+		zoom: 4.6,
 		mapTypeId: "roadmap",
 		styles: [
 			{
@@ -17,12 +17,12 @@
 		disableDefaultUI: true,
 		restriction: {
             latLngBounds: {
-			    north: -5,
-			    south: -49,
+			    north: -10,
+			    south: -45,
 			    west: 107,
 			    east: 159
 			},
-            strictBounds: false
+            strictBounds: true
         }
 		});
 		fetch("./data/seaports.json").then(function(response) {
