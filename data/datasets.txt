@@ -1,0 +1,7 @@
+Datasets used
+
+top-25-australian-cities.json
+Subset of https://simplemaps.com/data/au-cities
+Took top 25
+
+distribution-centres.json
