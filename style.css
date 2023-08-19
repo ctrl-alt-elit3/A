@@ -1,0 +1,25 @@
+* {
+    font-family: Varela Round, Helvetica;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#map {
+    height: 600px;
+    width: 600px;
+}
+
+#header {
+    background: #222;
+    color: #e4ecef;
+    padding: 1vh;
+}
+
+.header-name {
+    display: inline-block;
+    margin: 0;
+    font-size: 5vh;
+}
