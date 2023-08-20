@@ -204,3 +204,38 @@ body {
     border-radius: 1vw;
 }
 
+
+
+.iframe-card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    box-sizing: border-box;
+}
+
+.iframe-card {
+    width: 49%;  /* Leaving a small gap in between for aesthetics */
+    border: 1px solid #ddd;
+    border-radius: 1vw;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+iframe {
+    border-radius: 1vw;
+}
+
+.iframe-content {
+    width: 100%;
+    height: 50vw;
+    border: none; /* Removes the default iframe border */
+}
+
+.iframe-textbox {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2vw;
+    font-family: Arial, sans-serif;  /* Adjust the font-family as required */
+}
