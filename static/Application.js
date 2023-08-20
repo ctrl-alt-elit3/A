@@ -232,36 +232,6 @@ class Application
 			}
 		});
 
-		fetch("./data/roads.geojson").then(function(response) {
-			return response.json();
-		}).then(function(json) {
-			for (const railLine of json.features) {
-				let line = new google.maps.Polyline({
-					title: railLine.properties.track_name,
-					track_length: railLine.properties.length_km,
-					path: railLine.geometry.coordinates.filter(function(coord, i, array) {
-						return i % NTH_POINTS === 0 || i === array.length - 1;
-					}).map(function(coord) {
-						return { lat: parseFloat(coord[1]), lng: parseFloat(coord[0]) };
-					}),
-					geodesic: true,
-					strokeColor: '#FFFF00',
-					strokeOpacity: 1.0,
-					strokeWeight: 3
-				});
-				line.setMap(that.map);
-				google.maps.event.addListener(line, 'click', function(event) {
-					if (that.infoWindow) that.infoWindow.close();
-
-					that.infoWindow = new google.maps.InfoWindow({
-						content: `${line.title} (${line.track_length.toFixed(2)}km)`,
-						position: event.latLng
-					});
-
-					that.infoWindow.open(that.map);
-				});
-			}
-		});
 
 		document.getElementById("form").addEventListener("submit", function()
 		{
