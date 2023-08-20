@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Google Map</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="header" id="header">
+        <p class="header-name"><b>Open</b></p>
+        <p class="header-name">Freight</p>
+        <p class="header-name"><b>Route Planner</b></p>
+    </div>
+    <div class="ui">
+        <form id="form">
+            <div>
+                <!-- Start locations -->
+                <label for="start">Start: </label>
+                <input type="text" id="start" name="start" placeholder="Sydney, NSW">
+            </div>
+            <!-- End location -->
+            <div>
+                <label for="end">Destination: </label>
+                <input type="text" id="end" name="end" placeholder="Melbourne, Vic">
+            </div>
+            <!-- Choose cargo weight -->
+            <div>
+                <label for="weight">Cargo (Ton): </label>
+                <input type="text" id="weight" name="weight" placeholder="1000">
+            </div>
+            <!-- Choose route optimisations through checkboxes: least transfers, lowest emissions, least traffic -->
+            <div>
+                <div>
+                    <label for="leastTransfers">Least Transfers</label>
+                    <input type="checkbox" id="leastTransfers" name="leastTransfers" value="leastTransfers">
+                </div>
+                <div>
+                    <label for="leastEmissions">Least emissions</label>
+                    <input type="checkbox" id="leastEmissions" name="leastEmissions" value="leastEmissions">
+                </div>
+                <div>
+                    <label for="leastTraffic">Least traffic</label>
+                    <input type="checkbox" id="leastTraffic" name="leastTraffic" value="leastTraffic">
+                </div>
+            </div>
+            <input type="submit" id="submit" value="Get Route">
+        </form>
+    </div>
+    <div class="map">
+        <div id="map"></div>
+    </div>
+</div>
+
+<div class="map-legend">
+    <h3>Map Legend</h3>
+    <ul>
+        <li><span class="legend-circle yellow"></span> Distribution Centre</li>
+        <li><span class="legend-circle red"></span> Intermodal Terminal</li>
+        <li><span class="legend-circle green"></span> Seaport</li>
+        <li><span class="legend-line black"></span> Rail Lines</li>
+        <li><span class="legend-line orange"></span> Roads</li>
+    </ul>
+</div>
+
+
+</body>
+<script type="text/javascript" src="Application.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</html>
