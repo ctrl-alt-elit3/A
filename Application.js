@@ -8,6 +8,8 @@ function generateSvg(color) {
 	};
 }
 
+//todo start and finish buttons add to search
+
 function addEventListener(marker)
 {
 	marker.addListener('click', function() {
@@ -49,7 +51,7 @@ function addEventListener(marker)
 class Application
 {
 	// Grab API key from env file, provide an env file location
-	constructor(envFile, globalCallbackName) {
+		constructor(envFile, globalCallbackName) {
 		this.map = undefined;
 		this.infoWindow = undefined;
 		this.directionsService = undefined;

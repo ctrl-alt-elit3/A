@@ -134,3 +134,9 @@ input[type="checkbox"] {
 .orange {
     background-color: orange;
 }
+
+.main-content {
+    display: flex;
+    flex: 1;
+    margin: 20px;
+}
