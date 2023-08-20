@@ -235,11 +235,11 @@ class Application
 		fetch("./data/roads.geojson").then(function(response) {
 			return response.json();
 		}).then(function(json) {
-			console.log(json);
-			for (const road of json.features) {
+			for (const railLine of json.features) {
 				let line = new google.maps.Polyline({
-					title: road.properties.route_name,
-					path: road.geometry.coordinates.filter(function(coord, i, array) {
+					title: railLine.properties.track_name,
+					track_length: railLine.properties.length_km,
+					path: railLine.geometry.coordinates.filter(function(coord, i, array) {
 						return i % NTH_POINTS === 0 || i === array.length - 1;
 					}).map(function(coord) {
 						return { lat: parseFloat(coord[1]), lng: parseFloat(coord[0]) };
@@ -254,7 +254,7 @@ class Application
 					if (that.infoWindow) that.infoWindow.close();
 
 					that.infoWindow = new google.maps.InfoWindow({
-						content: `${line.title} (Roads)`,
+						content: `${line.title} (${line.track_length.toFixed(2)}km)`,
 						position: event.latLng
 					});
 
