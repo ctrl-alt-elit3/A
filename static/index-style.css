@@ -214,7 +214,8 @@ body {
 }
 
 .iframe-card {
-    width: 49%;  /* Leaving a small gap in between for aesthetics */
+    width: 47.5vw;  /* Leaving a small gap in between for aesthetics */
+    margin: 2.5vw;
     border: 1px solid #ddd;
     border-radius: 1vw;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -229,7 +230,7 @@ iframe {
 
 .iframe-content {
     width: 100%;
-    height: 50vw;
+    height: 75vh;
     border: none; /* Removes the default iframe border */
 }
 
@@ -238,4 +239,32 @@ iframe {
     margin-top: 10px;
     font-size: 1.2vw;
     font-family: Arial, sans-serif;  /* Adjust the font-family as required */
+}
+
+.info-section {
+    padding: 2vw 5vw; /* Vertical and Horizontal padding */
+    margin-top: 3vw;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+.info-text {
+    font-size: 1.4vw;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: justify; /* This will justify the content and give it a cleaner look */
+}
+
+.info-highlight {
+    font-weight: bold;
+    color: #007BFF;  /* Optional: Gives a blue color to the highlighted text */
+}
+
+.key-term {
+    color: #007BFF; /* This gives a blue color to the highlighted text */
+    font-weight: bold;
+    font-style: italic;
 }
