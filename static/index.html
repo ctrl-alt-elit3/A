@@ -63,29 +63,43 @@
 <div class="main-content">
     <h1 class='main-text' style="text-align: center; font-size: 5.5vh;">Yet, due to commercial sensitivities and a scarcity of accessible
         data</h1>
-    <h1 class='main-text' style="width: 35.1vw; padding: 2vw 5vw; display: inline-block;">the precise logistics and planning that underpin
-        route selection for transporting freight from <span style="font-size: 3vw;">Point A</span> to <span
-                style="font-size: 3vw;">Point B</span> remain <span style="font-size: 2.75vw;">largely unknown</span>
-        Our analysis of traffic and demand patterns, however, reveals a striking insight:</h1>
-    <img src="images/traffic.jpg" style="width: 40vw;">
+        
+        <div class="card-wrapper">
+            <div class="content-container">
+                <div class="text-container">
+                    <h1 class='main-text'>the precise logistics and planning that underpin
+                        route selection for transporting freight from 
+                        <span class="highlight-big">Point A</span> to 
+                        <span class="highlight-big">Point B</span> remain 
+                        <span class="highlight-medium">largely unknown.</span>
+                        However our analysis of traffic and demand patterns, however, reveals a striking insight:
+                    </h1>
+                </div>
+                <div class="img-container">
+                    <img src="images/traffic.jpg" class="side-image">
+                </div>
+            </div>
+        </div>
+
 
     <h2 style="font-size: 5.5vh; text-align: center;">Freight is often shipped simultaneously in peak traffic hours
         resulting in</h2>
 
-    <div style="width: 100vw">
-        <div style="width: 33.3vw; display: inline-block; border-collapse: collapse; float: left;">
-            <img src="images/traffic-2.jpg" style="width: 100%">
-            <h2 style="text-align: center;">Road congestion</h2>
+    <div class="card-container">
+        <div class="card">
+            <img src="images/traffic-2.jpg" class="card-img">
+            <h2 class="card-title">Road congestion</h2>
         </div>
-        <div style="width: 33.3vw; display: inline-block; border-collapse: collapse; float: left;">
-            <img src="images/congestion.png" style="width: 100%">
-            <h2 style="text-align: center;">Elongated travel times</h2>
+        <div class="card">
+            <img src="images/congestion.png" class="card-img">
+            <h2 class="card-title">Elongated travel times</h2>
         </div>
-        <div style="width: 33.3vw; display: inline-block; border-collapse: collapse; float: left;">
-            <img src="images/congestion.png" style="width: 100%">
-            <h2 style="text-align: center;">Increased fuel costs</h2>
+        <div class="card">
+            <img src="images/fuel.jpg" class="card-img">
+            <h2 class="card-title">Increased fuel costs</h2>
         </div>
     </div>
+
 
     <p>This lack of coordination translates to lost productivity, costing the Australian economy an estimated $16.5
         billion annually. At <span style="font-weight: bolder;">Open Freight</span>, we are committed to
@@ -138,7 +152,7 @@
         dots[slideIndex - 1].className += " active";
         if (w == false) {
             slideIndex++;
-            setTimeout(showSlides, 2000, slideIndex, false);
+            setTimeout(showSlides, 5000, slideIndex, false);
         }
     }
 </script>

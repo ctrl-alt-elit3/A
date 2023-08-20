@@ -121,3 +121,86 @@ body {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 32%; /* Slightly less than 33.3% to give some gap between cards */
+    border: 1px solid #ddd;
+    border-radius: 1vw;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.2s; /* Optional: For a small hover effect */
+}
+
+.card:hover {
+    transform: translateY(-1vw);
+}
+
+.card-img {
+    width: 100%;
+    display: block;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2.5vw;
+    margin: 1vh 0;
+    padding: 10px;
+}
+
+.card-wrapper {
+    border: 1px solid #ddd;
+    border-radius: 1vw;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    padding: 2vw;
+    margin: 5vw 5vw;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-container {
+    width: 45%;
+    padding-right: 2vw;
+    box-sizing: border-box;
+}
+
+.img-container {
+    width: 50%;
+    padding-left: 2vw;
+    box-sizing: border-box;
+}
+
+.main-text {
+    font-size: 1.5vw;
+    line-height: 1.4;
+}
+
+.highlight-big {
+    font-size: 3vw;
+    font-weight: bold;
+    color: #333;
+}
+
+.highlight-medium {
+    font-size: 2.75vw;
+    font-weight: bold;
+    color: #555;
+}
+
+.side-image {
+    width: 100%;
+    border-radius: 1vw;
+}
+
