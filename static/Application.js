@@ -80,6 +80,8 @@ class Application
 	    this.directionsService.route(request, function(result, status) {
 	    	console.log(status);
 	    	console.log(result);
+			let dist = result['routes'][0]['legs'][0]['distance']['text'];
+			document.getElementById("route-dist").textContent += dist;
 	        if (status == 'OK') {
 	            that.directionsRenderer.setDirections(result);
 	        } else if (status == "NOT_FOUND" || status == "ZERO_RESULTS")
