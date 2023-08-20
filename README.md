@@ -1,5 +1,5 @@
 # Open Freight
-Open and optimised routes for national freight
+Open and optimised routes for intermodal freight
 
 ## Attribution
 This project uses the following datasets:
