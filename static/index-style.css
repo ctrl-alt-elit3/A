@@ -239,3 +239,9 @@ iframe {
     font-size: 1.2vw;
     font-family: Arial, sans-serif;  /* Adjust the font-family as required */
 }
+
+.description {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
