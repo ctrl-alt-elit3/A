@@ -1,0 +1,1317 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20863,
+          -33.8578
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "Port": "Sydney",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.22226,
+          -33.96917
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "Port": "Port Botany",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.14598,
+          -30.3035
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "Port": "Coffs Harbour",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.92915,
+          -37.10246
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "Port": "Eden",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.05847,
+          -31.52294
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "Port": "Lord Howe Island",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.77146,
+          -32.9151
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "Port": "Newcastle",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.89029,
+          -34.46075
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "Port": "Port Kembla",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.70686,
+          -35.12274
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "Port": "Jervis Bay",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.84431,
+          -12.47049
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "Port": "Darwin",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.68606,
+          -12.19257
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "Port": "Melville Bay",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.42158,
+          -13.85833
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "Port": "Milner Bay",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.67225,
+          -10.42524
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "Port": "Christmas Island",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          158.93821,
+          -54.49852
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "Port": "Macquarie Island",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.22125,
+          -10.58505
+        ]
+      },
+      "properties": {
+        "OBJECTID": 14,
+        "Port": "Port Kennedy",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.17098,
+          -27.37463
+        ]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "Port": "Brisbane",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.77667,
+          -16.93951
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16,
+        "Port": "Cairns",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.06542,
+          -19.86726
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "Port": "Bowen (Abbot Point)",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.38349,
+          -24.76994
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18,
+        "Port": "Bundaberg",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2392,
+          -23.82962
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "Port": "Gladstone",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.29222,
+          -21.27548
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20,
+        "Port": "Hay Point",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.83063,
+          -17.49519
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21,
+        "Port": "Karumba",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.35957,
+          -12.79479
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22,
+        "Port": "Lockhart River (Quintell Beach)",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.33122,
+          -18.52412
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "Port": "Lucinda",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.22189,
+          -21.10617
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24,
+        "Port": "Mackay",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.1208,
+          -17.5988
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25,
+        "Port": "Mourilyan",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.86154,
+          -23.58295
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26,
+        "Port": "Port Alma",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.83696,
+          -19.24998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "Port": "Townsville",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.87008,
+          -12.66939
+        ]
+      },
+      "properties": {
+        "OBJECTID": 28,
+        "Port": "Weipa",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24979,
+          -15.45989
+        ]
+      },
+      "properties": {
+        "OBJECTID": 29,
+        "Port": "Cooktown",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.95228,
+          -20.34759
+        ]
+      },
+      "properties": {
+        "OBJECTID": 30,
+        "Port": "Fitzalan Passage (Hamilton Island, Whitsundays)",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.72437,
+          -20.27255
+        ]
+      },
+      "properties": {
+        "OBJECTID": 31,
+        "Port": "Coral Sea Marina, Airlie Beach",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.24539,
+          -21.65419
+        ]
+      },
+      "properties": {
+        "OBJECTID": 32,
+        "Port": "Percy Island",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.48513,
+          -34.7757
+        ]
+      },
+      "properties": {
+        "OBJECTID": 33,
+        "Port": "Port Adelaide",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.91418,
+          -34.43788
+        ]
+      },
+      "properties": {
+        "OBJECTID": 34,
+        "Port": "Ardrossan",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.76768,
+          -32.98973
+        ]
+      },
+      "properties": {
+        "OBJECTID": 35,
+        "Port": "Port Bonython",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.76066,
+          -35.02216
+        ]
+      },
+      "properties": {
+        "OBJECTID": 36,
+        "Port": "Port Giles",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.86899,
+          -34.72186
+        ]
+      },
+      "properties": {
+        "OBJECTID": 37,
+        "Port": "Port Lincoln",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.01255,
+          -33.16944
+        ]
+      },
+      "properties": {
+        "OBJECTID": 38,
+        "Port": "Port Pirie",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.65281,
+          -32.14818
+        ]
+      },
+      "properties": {
+        "OBJECTID": 39,
+        "Port": "Thevenard",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.6193,
+          -33.93016
+        ]
+      },
+      "properties": {
+        "OBJECTID": 40,
+        "Port": "Wallaroo",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.3404,
+          -42.8804
+        ]
+      },
+      "properties": {
+        "OBJECTID": 41,
+        "Port": "Hobart",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.90978,
+          -41.05224
+        ]
+      },
+      "properties": {
+        "OBJECTID": 42,
+        "Port": "Burnie",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.36711,
+          -41.18192
+        ]
+      },
+      "properties": {
+        "OBJECTID": 43,
+        "Port": "Devonport",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.85979,
+          -41.13534
+        ]
+      },
+      "properties": {
+        "OBJECTID": 44,
+        "Port": "Launceston (Bell Bay)",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.38216,
+          -40.85127
+        ]
+      },
+      "properties": {
+        "OBJECTID": 45,
+        "Port": "Port Latta",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.93183,
+          -42.54667
+        ]
+      },
+      "properties": {
+        "OBJECTID": 46,
+        "Port": "Spring Bay",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.29509,
+          -40.7624
+        ]
+      },
+      "properties": {
+        "OBJECTID": 47,
+        "Port": "Stanley",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.28639,
+          -42.14433
+        ]
+      },
+      "properties": {
+        "OBJECTID": 48,
+        "Port": "Wineglass Bay",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.91896,
+          -37.81263
+        ]
+      },
+      "properties": {
+        "OBJECTID": 49,
+        "Port": "Melbourne",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.38617,
+          -38.70995
+        ]
+      },
+      "properties": {
+        "OBJECTID": 50,
+        "Port": "Port Welshpool",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.36351,
+          -38.10969
+        ]
+      },
+      "properties": {
+        "OBJECTID": 51,
+        "Port": "Geelong",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.62014,
+          -38.35426
+        ]
+      },
+      "properties": {
+        "OBJECTID": 52,
+        "Port": "Portland",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.73465,
+          -32.05087
+        ]
+      },
+      "properties": {
+        "OBJECTID": 53,
+        "Port": "Fremantle",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.89729,
+          -35.0341
+        ]
+      },
+      "properties": {
+        "OBJECTID": 54,
+        "Port": "Albany",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.20776,
+          -18.00252
+        ]
+      },
+      "properties": {
+        "OBJECTID": 55,
+        "Port": "Broome",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.66737,
+          -33.32109
+        ]
+      },
+      "properties": {
+        "OBJECTID": 56,
+        "Port": "Bunbury",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.39413,
+          -24.22564
+        ]
+      },
+      "properties": {
+        "OBJECTID": 57,
+        "Port": "Cape Cuvier",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2074,
+          -20.84173
+        ]
+      },
+      "properties": {
+        "OBJECTID": 58,
+        "Port": "Cape Preston",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.64964,
+          -24.89881
+        ]
+      },
+      "properties": {
+        "OBJECTID": 59,
+        "Port": "Carnarvon",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.7274,
+          -20.64189
+        ]
+      },
+      "properties": {
+        "OBJECTID": 60,
+        "Port": "Dampier",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8975,
+          -33.87252
+        ]
+      },
+      "properties": {
+        "OBJECTID": 61,
+        "Port": "Esperance",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13879,
+          -21.95499
+        ]
+      },
+      "properties": {
+        "OBJECTID": 62,
+        "Port": "Exmouth",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.58876,
+          -28.78018
+        ]
+      },
+      "properties": {
+        "OBJECTID": 63,
+        "Port": "Geraldton",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.10306,
+          -21.64746
+        ]
+      },
+      "properties": {
+        "OBJECTID": 64,
+        "Port": "Onslow",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.57938,
+          -20.31421
+        ]
+      },
+      "properties": {
+        "OBJECTID": 65,
+        "Port": "Port Hedland",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.17222,
+          -20.59901
+        ]
+      },
+      "properties": {
+        "OBJECTID": 66,
+        "Port": "Port Walcott",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.38831,
+          -15.62942
+        ]
+      },
+      "properties": {
+        "OBJECTID": 67,
+        "Port": "Bing Bong",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.60023,
+          -16.09419
+        ]
+      },
+      "properties": {
+        "OBJECTID": 68,
+        "Port": "Cockatoo Island",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.73632,
+          -16.13428
+        ]
+      },
+      "properties": {
+        "OBJECTID": 69,
+        "Port": "Koolan Island",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.89406,
+          -12.11687
+        ]
+      },
+      "properties": {
+        "OBJECTID": 70,
+        "Port": "Cocos (Keeling) Islands",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.60942,
+          -17.29289
+        ]
+      },
+      "properties": {
+        "OBJECTID": 71,
+        "Port": "Derby",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.05959,
+          -40.06439
+        ]
+      },
+      "properties": {
+        "OBJECTID": 72,
+        "Port": "Grassy",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.22043,
+          -38.30113
+        ]
+      },
+      "properties": {
+        "OBJECTID": 73,
+        "Port": "Westernport",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.24199,
+          -40.21394
+        ]
+      },
+      "properties": {
+        "OBJECTID": 74,
+        "Port": "Lady Barron",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.95465,
+          -29.05779
+        ]
+      },
+      "properties": {
+        "OBJECTID": 75,
+        "Port": "Norfolk Island",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.50837,
+          -38.08748
+        ]
+      },
+      "properties": {
+        "OBJECTID": 76,
+        "Port": "Point Wilson",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.39626,
+          -26.10652
+        ]
+      },
+      "properties": {
+        "OBJECTID": 77,
+        "Port": "Useless Loop (Shark Bay)",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.59573,
+          -33.01311
+        ]
+      },
+      "properties": {
+        "OBJECTID": 78,
+        "Port": "Whyalla",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.10422,
+          -15.45225
+        ]
+      },
+      "properties": {
+        "OBJECTID": 79,
+        "Port": "Wyndham",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.34944,
+          -29.43599
+        ]
+      },
+      "properties": {
+        "OBJECTID": 80,
+        "Port": "Yamba",
+        "FPoE": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.43606,
+          -14.242
+        ]
+      },
+      "properties": {
+        "OBJECTID": 81,
+        "Port": "Yelcher Beach",
+        "FPoE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.42499,
+          -27.96841
+        ]
+      },
+      "properties": {
+        "OBJECTID": 82,
+        "Port": "Gold Coast Broadwater",
+        "FPoE": "Yes"
+      }
+    }
+  ]
+}

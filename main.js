@@ -1,1 +1,0 @@
-let app = new Application("./.env", "initMap");
