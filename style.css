@@ -140,3 +140,10 @@ input[type="checkbox"] {
     flex: 1;
     margin: 20px;
 }
+
+.frames {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
