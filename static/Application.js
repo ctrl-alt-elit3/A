@@ -82,9 +82,9 @@ class Application
 	    	console.log(result);
 	        if (status == 'OK') {
 	            that.directionsRenderer.setDirections(result);
-	        } else if (status == "NOT_FOUND")
+	        } else if (status == "NOT_FOUND" || status == "ZERO_RESULTS")
 	        {
-	        	alert("Either the start or desitination was not set or our algorithms could not determine a feasible route between the 2 points");
+	        	alert("Either the start or destination was not set or our algorithms could not determine a feasible route between the 2 points");
 	        }
 	    });
 	}
